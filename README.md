@@ -1,16 +1,21 @@
-## Hi there 👋
+## Open Source Contributions
 
-<!--
-**jhl221123/jhl221123** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- [apache-log4j2](https://github.com/apache/logging-log4j2)
+  - Expunge stale entries in `InternalLoggerRegistry` [#3681](https://github.com/apache/logging-log4j2/pull/3681)
+  - Prevent NPE with `rootLogger` shorthand when no appenders are specified [#3650](https://github.com/apache/logging-log4j2/pull/3650)
+  - Correct script resolution order dependency [#3718](https://github.com/apache/logging-log4j2/pull/3718)
+  - Enforce explicit names for global `<Scripts>` and refine script id handling [#3691](https://github.com/apache/logging-log4j2/pull/3691)
+  - Deprecate withers in `2.x` in favor of setters [#3756](https://github.com/apache/logging-log4j2/pull/3756)
+- [rewrite](https://github.com/openrewrite/rewrite)
+  - Add `ChangeTaskToTasksRegister` recipe [#5492](https://github.com/openrewrite/rewrite/pull/5492)
+  - Add recipe to change logger fields to `private` [#221](https://github.com/openrewrite/rewrite-logging-frameworks/pull/221)
+  - Correctly parse comments in doctype declarations [#5581](https://github.com/openrewrite/rewrite/pull/5581)
+- [spring-security](https://github.com/spring-projects/spring-security)
+  - Implement `UserDetailsPasswordService` in `JdbcUserDetailsManager` [#17071](https://github.com/spring-projects/spring-security/pull/17071)
+  - Fix step success reporting on Gradle failure [#69](https://github.com/spring-io/spring-security-release-tools/pull/69)
+- [spring-data-mongodb](https://github.com/spring-projects/spring-data-mongodb)
+  - Enable auto-startup for `DefaultMessageListenerContainer` [#4976](https://github.com/spring-projects/spring-data-mongodb/pull/4976)
+- [spring-ai](https://github.com/spring-projects/spring-ai)
+  - Add tests for `LastMaxTokenSizeContentPurger` [#3293](https://github.com/spring-projects/spring-ai/pull/3293)
+- [micronaut-core](https://github.com/micronaut-projects/micronaut-core)
+  - Implement `jitter` in `@Retryable` to avoid thundering herd [#11805](https://github.com/micronaut-projects/micronaut-core/pull/11805)
