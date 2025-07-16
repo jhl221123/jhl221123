@@ -7,6 +7,7 @@
   - Enforce explicit names for global `<Scripts>` and refine script id handling [#3691](https://github.com/apache/logging-log4j2/pull/3691)
   - Deprecate withers in `2.x` in favor of setters [#3756](https://github.com/apache/logging-log4j2/pull/3756)
   - Respect `log4j1.compatibility` for programmatic configuration [#3812](https://github.com/apache/logging-log4j2/pull/3812)
+  - Correct log message format in `AbstractDriverManagerConnectionSource` [#3831](https://github.com/apache/logging-log4j2/pull/3831)
 - [rewrite](https://github.com/openrewrite/rewrite)
   - Add `ChangeTaskToTasksRegister` recipe [#5492](https://github.com/openrewrite/rewrite/pull/5492)
   - Add recipe to change logger fields to `private` [#221](https://github.com/openrewrite/rewrite-logging-frameworks/pull/221)
