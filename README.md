@@ -9,6 +9,7 @@
   - Respect `log4j1.compatibility` for programmatic configuration [#3812](https://github.com/apache/logging-log4j2/pull/3812)
   - Correct log message format in `AbstractDriverManagerConnectionSource` [#3831](https://github.com/apache/logging-log4j2/pull/3831)
   - Deadlock under unusual conditions [#3837](https://github.com/apache/logging-log4j2/discussions/3837)
+  - Unify TLS configuration [#3902](https://github.com/apache/logging-log4j2/pull/3902)
 - [rewrite](https://github.com/openrewrite/rewrite)
   - Add `ChangeTaskToTasksRegister` recipe [#5492](https://github.com/openrewrite/rewrite/pull/5492)
   - Add recipe to change logger fields to `private` [#221](https://github.com/openrewrite/rewrite-logging-frameworks/pull/221)
